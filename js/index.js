@@ -18,7 +18,7 @@ const context = new (window.AudioContext || window.webkitAudioContext)();
 /* VCO */
 var vco = context.createOscillator();
 vco.type = vco.SQUARE;
-vco.frequency.value = this.frequency;
+//vco.frequency.value = this.frequency;
 vco.start(0);
 /* VCA */
 var vca = context.createGain();
